@@ -1,0 +1,43 @@
+body {
+  margin: 0 ;  
+}
+
+
+/*.Barra.do.topo.do.site.e.Navegacao.*/
+.containerGeral {
+
+   background-color: blue ;
+}
+
+.containerHeader {
+    width: 100%;
+    height: 1000px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    }
+
+   .containerGeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: right; */
+       }
+
+.containerNav{
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+#navegação {
+ width: 40%;   
+ display: flex;
+ list-style: none;
+ display: inherit;
+ justify-content: space-evenly;
+ }
+
+ #tituloSite {
+  color: rgb(222, 215, 227); 
+ }
